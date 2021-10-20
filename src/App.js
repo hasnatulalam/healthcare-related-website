@@ -27,6 +27,7 @@ import Doctors from './components/Home/Doctors/Doctors';
 
 
 
+
 function App() {
   return (
     <div className="App">
@@ -56,6 +57,7 @@ function App() {
       <PrivateRoute  path="/booking/:serviceId">
         <Booking></Booking>
       </PrivateRoute>
+     
       <Route  path ="*">
            <NotFound></NotFound>
       </Route>

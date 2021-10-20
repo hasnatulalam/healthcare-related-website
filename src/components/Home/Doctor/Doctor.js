@@ -8,14 +8,14 @@ const Doctor = ({doctor}) => {
         <div className=" col-lg-4 col-md-6 col-sm-12">
              <div className="cart-top">
               <div className="cart-details">
-                <img className="w-50" src={img} alt="" />
+                <img className="w-100 h-100" src={img} alt="" />
               </div>
               <div className="text-area">
                 <h4> Name:{name}</h4>
                 
                 
                   
-                   <button className="btn btn-success">Details</button> 
+                
                
                </div>
             </div>

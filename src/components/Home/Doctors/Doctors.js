@@ -26,7 +26,7 @@ const Doctors = () => {
          </div>
          {
                     doctors.map(doctor => <Doctor
-                        key={doctor.id}
+                        key={doctor.DId}
                         doctor={doctor}
                     ></Doctor>)
                 }
