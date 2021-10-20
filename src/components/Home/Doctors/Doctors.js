@@ -7,7 +7,7 @@ const Doctors = () => {
 
     // Loading Data 
     useEffect(() => {
-        fetch('./Doctors.JSON')
+        fetch('./AllDoctors.JSON')
             .then(res => res.json())
             .then(data => {
                 console.log(data);
@@ -26,7 +26,7 @@ const Doctors = () => {
          </div>
          {
                     doctors.map(doctor => <Doctor
-                        key={doctor.DId}
+                        key={doctor._login}
                         doctor={doctor}
                     ></Doctor>)
                 }

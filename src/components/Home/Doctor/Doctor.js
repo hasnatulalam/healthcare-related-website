@@ -13,9 +13,13 @@ const Doctor = ({doctor}) => {
               <div className="text-area">
                 <h4> Name:{name}</h4>
                 
+                 
+                
                 
                   
-                
+               <button className="btn-primary">Call Doctor</button>
+                   
+                   
                
                </div>
             </div>

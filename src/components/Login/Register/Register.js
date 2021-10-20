@@ -1,12 +1,17 @@
 import React from 'react';
 import { Button, Form } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import './REgister.css'
 
 const Register = () => {
     return (
+      <div className="row">
+        <div className="col-lg-6 col-sm-12 col-md-6 mt-4">
+       <img  className="w-75"src="https://i.ibb.co/ZmLDqFR/register.jpg" alt="" srcset="" />
+        </div>
+        <div className="col-lg-6">
         <div className="login-form">
-            <div>
-                <h2>Register: Create Account</h2>
+                       <h2>Register: Create Account</h2>
                 <Form>
   <Form.Group className="mb-3" controlId="formBasicEmail">
     <Form.Label>Email address</Form.Label>
@@ -36,6 +41,11 @@ const Register = () => {
                 <button className="btn btn-primary">Google Sign In</button>
             </div>
         </div>
+            <div>
+        </div>
+      </div>
+       
+   
     );
 };
 

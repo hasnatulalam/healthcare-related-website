@@ -20,25 +20,34 @@ const Login = () => {
     }
  
     return (
-        <div className="login-form">
+      <div className="row">
+        <div className="col-md-4 col-sm-12 col-lg-6 ">
+          
+            <img className="w-50 h-100 mt-4" src="https://i.ibb.co/vd9kb3b/login.jpg" alt="" srcset=""  />
+          
+
+        </div>
+        <div className="col-md-6 col-sm-12 col-lg-6">
+         <div className="login-form"> 
         <div>
             <h2>Login</h2>
             <Form>
-  <Form.Group className="mb-3" controlId="formBasicEmail">
+  <Form.Group className="mb-3 w-100" controlId="formBasicEmail">
     <Form.Label>Email address</Form.Label>
     <Form.Control type="email" placeholder="Enter email" />
-    <Form.Text className="text-muted">
+    <Form.Text className="text-muted ">
       We'll never share your email with anyone else.
     </Form.Text>
   </Form.Group>
 
-  <Form.Group className="mb-3" controlId="formBasicPassword">
+  <Form.Group className="mb-3 w-100" controlId="formBasicPassword">
     <Form.Label>Password</Form.Label>
     <Form.Control type="password" placeholder="Password" />
   </Form.Group>
-  <Button variant="primary" type="submit">
-    Submit
-  </Button>
+  <div className="">
+  <button className="btn btn-primary"> Submit</button>
+     </div>
+ 
 
   
   
@@ -51,6 +60,9 @@ const Login = () => {
             >Google Sign In</button>
         </div>
     </div>
+          </div>
+      </div> 
+        
 
     );
 };

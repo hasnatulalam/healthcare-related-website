@@ -1,3 +1,4 @@
+{
 "service" : [
     {
      "id": 1,
@@ -46,5 +47,6 @@
      "ratting": 4,
      "price": 2000,
      "img": "https://i.ibb.co/R69yQBN/Child.png"
-    },
+    }
    ]
+}

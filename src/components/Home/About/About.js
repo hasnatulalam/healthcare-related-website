@@ -2,7 +2,7 @@ import React from 'react';
 
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faAmbulance, faCarSide, faCity, faClinicMedical, faFileMedical, faPills, faWarehouse } from '@fortawesome/free-solid-svg-icons';
+import { faAmbulance,  faClinicMedical,  faPills,  } from '@fortawesome/free-solid-svg-icons';
 
 const About = () => {
   
@@ -22,7 +22,7 @@ const About = () => {
                     <h3 className="fw-bolder text-center text-danger"><i>We always provide <br /> best service in this town</i> </h3>
                     </div>
                    
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum suscipit quis aliquam assumenda possimus ea ipsum rerum et laudantium exercitationem voluptatem incidunt est cumque dolor commodi culpa delectus eaque ut sequi placeat, atque tempora omnis neque quod. Sequi earum odio eius quisquam voluptate architecto non dolores, corrupti hic vero repudiandae.</p>
+                    <p>We are providing best doctor in this town. Doctor is our real hero.In pandamic they faces lots of provlem but they do not leave their duty. We are trying to respect all doctors</p>
                     <hr />
                     <div className="d-flex justify-content-between">
                         <div className="overflow-hidden w-25">
