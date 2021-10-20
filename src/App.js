@@ -25,7 +25,7 @@ import Services from './components/Home/Services/Services';
 import Doctors from './components/Home/Doctors/Doctors';
 import Connect from './components/Connect/Connect';
 
-import Footer from './components/Shared/Footer/Footer';
+
 
 
 
@@ -72,7 +72,7 @@ function App() {
      
      
     </Switch>
-    <Footer></Footer>
+    
    
   </Router>
         </AuthProvider>
