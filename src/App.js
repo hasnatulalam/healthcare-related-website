@@ -23,6 +23,9 @@ import Register from './components/Login/Register/Register';
 import Doctor from './components/Home/Doctor/Doctor';
 import Services from './components/Home/Services/Services';
 import Doctors from './components/Home/Doctors/Doctors';
+import Connect from './components/Connect/Connect';
+
+import Footer from './components/Shared/Footer/Footer';
 
 
 
@@ -55,10 +58,13 @@ function App() {
       <Route path="/register">
               <Register></Register>
             </Route>
+           
       <PrivateRoute  path="/booking/:serviceId">
         <Booking></Booking>
       </PrivateRoute>
-     
+      <PrivateRoute  path="/connect/:serviceId">
+        <Connect></Connect>
+      </PrivateRoute>
      
       <Route  path ="*">
            <NotFound></NotFound>
@@ -66,6 +72,7 @@ function App() {
      
      
     </Switch>
+    <Footer></Footer>
    
   </Router>
         </AuthProvider>

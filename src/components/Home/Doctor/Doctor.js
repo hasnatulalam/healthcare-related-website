@@ -15,9 +15,12 @@ const Doctor = ({doctor}) => {
                 
                  
                 
-                
+                 
                   
-               <button className="btn-primary">Call Doctor</button>
+                <Link to={`/connect/${name}`}>
+                    <button className="btn btn-success">Book:{name.toLowerCase()}</button>
+                    </Link>
+                   
                    
                    
                
